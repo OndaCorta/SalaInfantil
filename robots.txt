@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://ondacorta.github.io/SalaInfantil/sitemap.xml
