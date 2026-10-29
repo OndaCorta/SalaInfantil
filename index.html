@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Biblioteca en onda corta · Cuentos en audio para escuchar en familia</title>
+<meta name="description" content="Reseñas de cuentos contadas en voz alta desde la sala infantil de la Biblioteca Pública del Maule. Elige una frecuencia y escucha en familia.">
+<meta name="author" content="Sala infantil · Biblioteca Pública del Maule">
+<link rel="canonical" href="https://ondacorta.github.io/SalaInfantil/">
+<meta name="theme-color" content="#f7f1e5" id="meta-tema">
+<meta name="color-scheme" content="light dark">
+
+<!-- Cómo se ve al compartir el enlace -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Biblioteca en onda corta">
+<meta property="og:title" content="Biblioteca en onda corta">
+<meta property="og:description" content="Cuentos contados en voz alta desde la sala infantil de la Biblioteca Pública del Maule. Elige una frecuencia y escucha en familia.">
+<meta property="og:url" content="https://ondacorta.github.io/SalaInfantil/">
+<meta property="og:locale" content="es_CL">
+<meta property="og:image" content="https://ondacorta.github.io/SalaInfantil/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Una radio antigua dibujada en verde y ámbar con el texto Biblioteca en onda corta">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Biblioteca en onda corta">
+<meta name="twitter:description" content="Cuentos contados en voz alta desde la sala infantil de la Biblioteca Pública del Maule.">
+<meta name="twitter:image" content="https://ondacorta.github.io/SalaInfantil/og.png">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Zilla+Slab:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+
+<script>
+  /* Elige el tema antes de pintar la página para que no haya destellos. */
+  (function () {
+    var guardado = null;
+    try { guardado = localStorage.getItem("tema"); } catch (error) {}
+    var oscuro = guardado
+      ? guardado === "oscuro"
+      : window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.documentElement.setAttribute("data-tema", oscuro ? "oscuro" : "claro");
+  })();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Biblioteca en onda corta",
+  "url": "https://ondacorta.github.io/SalaInfantil/",
+  "description": "Reseñas de cuentos contadas en voz alta desde la sala infantil de la Biblioteca Pública del Maule.",
+  "inLanguage": "es-CL",
+  "publisher": {
+    "@type": "Library",
+    "name": "Biblioteca Pública del Maule · Sala infantil",
+    "url": "https://ondacorta.github.io/SalaInfantil/",
+    "email": "bibliotecapublicadelmaule@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Calle 1 Sur 1026",
+      "addressLocality": "Talca",
+      "addressRegion": "Maule",
+      "addressCountry": "CL"
+    },
+    "sameAs": [
+      "https://www.instagram.com/bibliotecapublicadelmaule/"
+    ],
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "09:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "10:00",
+        "closes": "15:00"
+      }
+    ]
+  }
+}
+</script>
+
+<script src="resenas.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="saltar" href="#sintonizador">Saltar a las reseñas</a>
+
+<header class="cabecera">
+  <div class="wrap cabecera-fila">
+    <a class="marca" href="./">
+      <span class="marca-icono" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2.5" y="8" width="19" height="12.5" rx="2.4"></rect>
+          <path d="M7 8V6.2A2.2 2.2 0 0 1 9.2 4h6.4L21.5 8"></path>
+          <circle cx="16" cy="14.2" r="2.6"></circle>
+          <path d="M6.5 12.2h1.2M6.5 15.2h1.2M6.5 18.2h1.2"></path>
+        </svg>
+      </span>
+      <span class="marca-texto">
+        <strong>Biblioteca en onda corta</strong>
+        <small>Sala infantil · Biblioteca Pública del Maule</small>
+      </span>
+    </a>
+
+    <button class="boton-tema" id="boton-tema" type="button" aria-pressed="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20.5 14.2A8.2 8.2 0 0 1 9.8 3.5a8.4 8.4 0 1 0 10.7 10.7Z"></path>
+      </svg>
+      <span class="texto-tema">Modo noche</span>
+    </button>
+  </div>
+</header>
+
+<main id="contenido">
+  <section class="heroe wrap" aria-labelledby="titulo-principal">
+    <p class="sobretitulo"><span class="punto-vivo" aria-hidden="true"></span> Biblioteca Pública del Maule · Sala infantil</p>
+    <h1 id="titulo-principal">Cuentos que se <span class="resaltado">escuchan</span> como la radio de antes.</h1>
+    <p class="entradilla">Gira el dial, elige una frecuencia y deja que te cuenten un cuento. Reseñas en voz alta, grabadas con cariño para escuchar en familia. Sube el volumen, deja el teléfono sobre la mesa y escuchen juntos.</p>
+  </section>
+
+  <section class="sintonizador wrap" id="sintonizador" aria-label="Sintonizador de reseñas">
+    <noscript>
+      <p class="aviso-noscript"><strong>Este dial necesita JavaScript para cambiar de frecuencia.</strong> Si no puedes activarlo, pide las reseñas en la sala infantil o escríbenos a <a href="mailto:bibliotecapublicadelmaule@gmail.com">bibliotecapublicadelmaule@gmail.com</a>.</p>
+    </noscript>
+
+    <div class="consola" id="consola">
+      <div class="pantalla">
+        <div class="pantalla-barra">
+          <span class="estado"><span class="led" aria-hidden="true"></span><span id="estado-texto">Listo para escuchar</span></span>
+          <span class="contador" id="contador">1 / 1</span>
+        </div>
+        <p class="frecuencia"><span id="frecuencia">—</span><span class="fm">FM</span></p>
+        <p class="sintonizado" id="sintonizado">Cargando el dial…</p>
+      </div>
+
+      <div class="dial">
+        <div class="escala" id="escala" style="--n: 4">
+          <div class="marcas" aria-hidden="true"></div>
+          <div class="aguja" id="aguja" aria-hidden="true"></div>
+          <div class="estaciones" id="estaciones" role="radiogroup" aria-label="Frecuencias de las reseñas"></div>
+        </div>
+      </div>
+
+      <p class="ayuda">Toca una frecuencia o muévete con las flechas <kbd>←</kbd> <kbd>→</kbd>.</p>
+    </div>
+
+    <article class="ficha" id="ficha" aria-labelledby="ficha-titulo">
+      <p class="ficha-senal">Sintonizador</p>
+      <h2 id="ficha-titulo">Elige una frecuencia</h2>
+      <p class="ficha-autor">Cada frecuencia guarda un cuento.</p>
+      <p class="ficha-texto">Toca uno de los números del dial para leer y escuchar su reseña.</p>
+    </article>
+
+    <p class="visualmente-oculto" id="anuncio" role="status" aria-live="polite"></p>
+  </section>
+
+  <section class="seccion wrap" aria-labelledby="como-titulo">
+    <h2 class="titulo-seccion" id="como-titulo">Una radio hecha a mano</h2>
+    <p class="seccion-intro">No hay estudios de grabación ni micrófonos caros. Hay personas de la sala infantil que leen, se ríen y cuentan lo que les gustó de cada libro.</p>
+
+    <ol class="pasos">
+      <li class="paso">
+        <span class="paso-icono" aria-hidden="true">🎙️</span>
+        <h3>Leemos y conversamos</h3>
+        <p>Cada cuento se lee en voz alta y se cuenta con palabras propias. Sin guiones rígidos: importa lo que el libro nos hizo sentir.</p>
+      </li>
+      <li class="paso">
+        <span class="paso-icono" aria-hidden="true">🎧</span>
+        <h3>Grabamos sin apuro</h3>
+        <p>Grabaciones caseras, con el ruido amable de la sala. Preferimos una voz cercana a un audio perfecto.</p>
+      </li>
+      <li class="paso">
+        <span class="paso-icono" aria-hidden="true">📚</span>
+        <h3>Lo compartimos contigo</h3>
+        <p>Una reseña por libro. Si el cuento es largo, lo dividimos en varios capítulos para escucharlo por partes.</p>
+      </li>
+    </ol>
+  </section>
+
+  <section class="franja" aria-labelledby="conversar-titulo">
+    <div class="wrap">
+      <div class="conversar">
+        <h2 id="conversar-titulo">Para conversar después del cuento</h2>
+        <p class="seccion-intro">Escuchar juntos es solo el comienzo. Prueben con estas preguntas, sin respuestas correctas:</p>
+        <ul class="preguntas">
+          <li>¿Qué parte te gustó más? ¿Por qué?</li>
+          <li>¿Qué harías tú en el lugar del personaje?</li>
+          <li>¿A quién le recomendarías este cuento?</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion wrap visita" aria-labelledby="visitanos-titulo">
+    <div>
+      <h2 id="visitanos-titulo">Ven a buscar tu próximo cuento</h2>
+      <p class="seccion-intro">La sala infantil tiene estanterías bajitas, cojines y un rincón para leer en voz baja. Si un cuento de la radio te gustó, pídenoslo: casi siempre tenemos más de una copia.</p>
+      <a class="boton boton-principal" href="mailto:bibliotecapublicadelmaule@gmail.com?subject=Consulta%20desde%20la%20radio%20de%20cuentos">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="2.5" y="4.5" width="19" height="15" rx="2.5"></rect>
+          <path d="m3.5 6.5 8.5 6 8.5-6"></path>
+        </svg>
+        Escríbenos
+      </a>
+    </div>
+
+    <dl class="datos">
+      <div>
+        <dt>Dirección</dt>
+        <dd>Calle 1 Sur 1026<br>Talca, Región del Maule</dd>
+      </div>
+      <div>
+        <dt>Horario</dt>
+        <dd>Lunes a jueves: 9:00 a 18:00 h<br>Viernes: 9:00 a 17:00 h<br>Sábados: 10:00 a 15:00 h</dd>
+      </div>
+      <div>
+        <dt>Correo</dt>
+        <dd><a href="mailto:bibliotecapublicadelmaule@gmail.com">bibliotecapublicadelmaule@gmail.com</a></dd>
+      </div>
+      <div>
+        <dt>Instagram</dt>
+        <dd><a href="https://www.instagram.com/bibliotecapublicadelmaule/" target="_blank" rel="noopener">@bibliotecapublicadelmaule</a></dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="invitacion wrap">
+    <div class="invitacion-caja">
+      <h2>¿Tienes un cuento favorito?</h2>
+      <p>Cuéntanoslo en la sala infantil o escríbenos. Nos encanta grabar reseñas que nazcan de las familias que nos visitan.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="pie wrap">
+  <p><strong>Biblioteca en onda corta</strong> · Sala infantil de la Biblioteca Pública del Maule</p>
+  <p>Hecho con cariño para leer con los oídos. <a href="#sintonizador">Volver al dial ↑</a></p>
+  <p>Síguenos en <a href="https://www.instagram.com/bibliotecapublicadelmaule/" target="_blank" rel="noopener">Instagram</a> y escríbenos a <a href="mailto:bibliotecapublicadelmaule@gmail.com">bibliotecapublicadelmaule@gmail.com</a>.</p>
+</footer>
+</body>
+</html>

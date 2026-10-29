@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Radio de la Biblioteca en onda corta">
+  <rect width="64" height="64" rx="14" fill="#123b35"/>
+  <path d="M17 40a15 15 0 0 1 30 0" fill="none" stroke="#f3b54a" stroke-width="3.6" stroke-linecap="round"/>
+  <path d="M23 40a9 9 0 0 1 18 0" fill="none" stroke="#f3b54a" stroke-width="2.2" stroke-linecap="round" opacity=".45"/>
+  <path d="M32 40 42 27" fill="none" stroke="#edf4ef" stroke-width="3.4" stroke-linecap="round"/>
+  <circle cx="32" cy="40" r="3.6" fill="#f3b54a"/>
+  <path d="M20 49h24" stroke="#edf4ef" stroke-width="2.4" stroke-linecap="round" opacity=".55"/>
+</svg>
