@@ -110,7 +110,7 @@ Si el sitio se ve con una versión antigua, recarga con `Ctrl + F5`. La página 
 
 ## Ideas para seguir creciendo
 
-- Grabar las reseñas que faltan de Papelucho y La oruga muy hambrienta.
+- Grabar la reseña que falta de La oruga muy hambrienta.
 - Sumar una reseña por mes, con la voz de distintas personas del equipo.
 - Agregar un código QR junto al mostrador que lleve al dial.
 - Invitar a las familias a recomendar su cuento favorito y grabar esas reseñas.

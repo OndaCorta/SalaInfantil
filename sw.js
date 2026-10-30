@@ -7,7 +7,7 @@
    estilos se sirven desde la copia local cuando es posible.
    ============================================================ */
 
-const VERSION = "onda-corta-v1";
+const VERSION = "onda-corta-v2";
 const CACHE = VERSION + "-estatico";
 
 const ARCHIVOS = [

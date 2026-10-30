@@ -55,7 +55,7 @@ const RESENAS = [
     edad: "Desde 7 años",
     resena:
       "Papelucho cuenta su vida en un diario: la escuela, los hermanos, las travesuras y esas preguntas enormes que se le ocurren de repente. Es un clásico chileno que sigue haciendo reír y que funciona muy bien para leer por capítulos, una noche a la vez.",
-    audio: "",
+    audio: "audios/papelucho.mp3",
   },
   {
     id: "oruga",
@@ -66,5 +66,25 @@ const RESENAS = [
     resena:
       "Una oruga pequeñita sale del huevo con mucha hambre. Come hojas, frutas y hasta un pastel… y después de tanto comer, algo mágico ocurre. Un cuento para los más pequeños de la casa: cuenta los días de la semana, los números y, de paso, la historia de una transformación.",
     audio: "",
+  },
+  {
+    id: "ratita-marita",
+    frecuencia: "101.9",
+    titulo: "Ratita Marita",
+    autor: "Ana María Güiraldes",
+    edad: "Desde 4 años",
+    resena:
+      "Marita está invitada a la fiesta de laucha Monona y no sabe qué ponerse: le parece que no tiene nada lindo. Su abuela la tranquiliza y le recuerda que sus dientes color yeso y sus ojitos brillantes bastan para lucirse. Así, con más confianza que ropa, Marita llega a la fiesta y se lleva todas las miradas. Un cuento breve y tierno para conversar sobre la vergüenza, los apuros de último minuto y eso que nos hace lindos sin necesidad de un vestido nuevo.",
+    audio: "audios/ratita-marita.mp3",
+  },
+  {
+    id: "ada",
+    frecuencia: "105.1",
+    titulo: "Las pesadillas de Ada",
+    autor: "Isabel Córdova Rosas",
+    edad: "Desde 6 años",
+    resena:
+      "Ada es valiente de día, pero de noche los monstruos de sus pesadillas le quitan el sueño. Harta de tenerles miedo, decide enfrentarlos: los busca, los mira de cerca y hasta le planta una bofetada a un hombrecillo peludo. Un relato con humor sobre los miedos nocturnos, ideal para leer antes de dormir y conversar sobre esas cosas que se ven enormes cuando la pieza queda a oscuras.",
+    audio: "audios/las-pesadillas-de-ada.mp3",
   },
 ];
