@@ -38,6 +38,16 @@ const RESENAS = [
     audio: "audios/elmer.mp3",
   },
   {
+    id: "kiwala",
+    frecuencia: "89.7",
+    titulo: "Kiwala y la Luna",
+    autor: "Ana María Pavez y Constanza Recart",
+    edad: "Desde 5 años",
+    resena:
+      "En la cordillera, la llama Kiwala y sus amigos —el cóndor, el puma y la serpiente— miran el cielo estrellado hasta que la Luna llena empieza a desaparecer. Convencidos de que alguien la está atacando, parten a rescatarla y descubren que las apariencias engañan. Un cuento andino para asombrarse con los eclipses y conversar sobre cómo se explican los fenómenos del cielo.",
+    audio: "audios/kiwala-y-la-luna.mp3",
+  },
+  {
     id: "luna",
     frecuencia: "91.5",
     titulo: "¿A qué sabe la Luna?",
@@ -46,6 +56,16 @@ const RESENAS = [
     resena:
       "Los animales se preguntan a qué sabrá la Luna y quieren probarla, pero está muy lejos y ninguno llega solo. Uno sobre otro, arman una torre para alcanzarla. Un cuento sobre la curiosidad y el trabajo en equipo, ideal para conversar después: ¿a qué creen que sabe la Luna? ¿Y qué sabor tendrá el Sol?",
     audio: "audios/luna.mp3",
+  },
+  {
+    id: "beto-y-bella",
+    frecuencia: "93.3",
+    titulo: "Beto y Bella llegan a Chile",
+    autor: "Gary Ramos M.",
+    edad: "Desde 6 años",
+    resena:
+      "Beto y Bella son una pareja de guacamayas que vive tranquila en la selva amazónica hasta que los seres humanos empiezan a talar y quemar su hogar. Sin más remedio, emprenden un largo viaje hacia el sur de Chile, donde deberán ganarse la confianza de los animales del bosque. Una historia sobre migración, acogida y empatía, ideal para conversar sobre quienes llegan a un lugar nuevo buscando una vida mejor.",
+    audio: "audios/beto-y-bella-llegan-a-chile.mp3",
   },
   {
     id: "papelucho",
@@ -58,6 +78,16 @@ const RESENAS = [
     audio: "audios/papelucho.mp3",
   },
   {
+    id: "pepito",
+    frecuencia: "96.9",
+    titulo: "Pepito y sus libruras",
+    autor: "Pepe Pelayo",
+    edad: "Desde 7 años",
+    resena:
+      "A Pepito le encargan una misión difícil: conseguir que su primo Patricio vuelva a leer cuentos clásicos, después de que una burla lo dejara desconfiado. Para lograrlo, Pepito inventa sus propias versiones de Caperucita Roja, El flautista de Hamelin y Blancanieves, con mucho humor y varios guiños al mundo de hoy. Un libro para reírse de los cuentos de siempre y descubrir que leer también puede ser una travesura.",
+    audio: "audios/pepito-y-sus-libruras.mp3",
+  },
+  {
     id: "oruga",
     frecuencia: "98.7",
     titulo: "La oruga muy hambrienta",
@@ -68,6 +98,16 @@ const RESENAS = [
     audio: "",
   },
   {
+    id: "don-croqueto",
+    frecuencia: "100.3",
+    titulo: "Don Croqueto",
+    autor: "María José Floriano",
+    edad: "Desde 6 años",
+    resena:
+      "Don Croqueto es un payaso coqueto y pizpireto que recorre la ciudad con una calabaza en la cabeza, los bolsillos llenos de trucos y una croqueta por nariz. Su misión es seria: hacer reír a unos vecinos apurados que llevan horas sin sonreír. Un álbum escrito en rima, con humor y color, para recordar lo importantes que son las risas compartidas y mirarnos a los ojos de vez en cuando.",
+    audio: "audios/don-croqueto.mp3",
+  },
+  {
     id: "ratita-marita",
     frecuencia: "101.9",
     titulo: "Ratita Marita",
@@ -76,6 +116,16 @@ const RESENAS = [
     resena:
       "Marita está invitada a la fiesta de laucha Monona y no sabe qué ponerse: le parece que no tiene nada lindo. Su abuela la tranquiliza y le recuerda que sus dientes color yeso y sus ojitos brillantes bastan para lucirse. Así, con más confianza que ropa, Marita llega a la fiesta y se lleva todas las miradas. Un cuento breve y tierno para conversar sobre la vergüenza, los apuros de último minuto y eso que nos hace lindos sin necesidad de un vestido nuevo.",
     audio: "audios/ratita-marita.mp3",
+  },
+  {
+    id: "mampato",
+    frecuencia: "103.7",
+    titulo: "Las aventuras de Mampato en el Cruce de los Andes",
+    autor: "Themo Lobos",
+    edad: "Desde 8 años",
+    resena:
+      "Mampato y Ogú viajan al Chile de la Independencia y se suman al Ejército de los Andes, justo cuando la columna cruza la cordillera rumbo a Chacabuco. En medio del frío y el cansancio, Mampato pierde su cinto espacio-temporal y queda atrapado en el pasado junto a su amigo. Una aventura histórica de Themo Lobos, con batallas, amistad y un montón de detalles para descubrir en cada página.",
+    audio: "audios/mampato-cruce-de-los-andes.mp3",
   },
   {
     id: "ada",
